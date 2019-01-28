@@ -3,17 +3,17 @@ title: "Writing the First Chapter"
 slug: first-chapter
 ---
 
-Make School tutorials should have a consistent flow, which starts by stating all expectations of a tutorial upfront in the first chapter. This is a short guide to structuring the first chapter of a tutorial so that students are fully aware of what they're building, why they're doing it, what they need to know before diving in, and a reminder of tools to use.
+[Keras](https://keras.io/) is a high level deep learning API that helps quickly build neural networks via a modular approach. Keras is built on top of [Tensorflow](https://www.tensorflow.org/), which provides support for training on CPU or GPU. With Keras, users can design and iterate on machine learning ideas, moving from experiments to production very quickly.
 
-**This entire file can be cloned for the header sections, formatting as well as for specific copy, such as the git/github or Learning Outcomes section.**
+In this tutorial, we will introduce several key Keras API calls and features.Today we're going to build, train and evaluate some deep learning classifiers in the context of Computer Vision with the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html), a collection of images that can be classified into different categories based on type. By the end of this tutorial you'll be able to apply the concepts here in your own projects.
 
-# Overview
+The CIFAR-10 data set  is one of the more well known classification problems in machine learning, anagalous to doing descriptive statistics with the titanic dataset. Cifar-10 contains 60000 32 × 32 pixel color images in 10 separate classes, with 6000 images per class. For training and testing, the set contains 50000 training images and 10000 in the test/validation image set.
 
-Use this section to give a brief overview of what the students will be building in the tutorial. This should summarize what the student will build and what tools they'll use.
+[Read more about it here](https://www.cs.toronto.edu/~kriz/cifar.html)
 
-A screenshot or video of the final product should be shown here as well, so that students can get a preview of the end product that they'll be building.
+Luckily, keras has this dataset built in, but incase you run into issues, or would like to import it yourself
 
-**When copying this for your tutorial, remember that since this is the first section, you don't need a header**
+[Click here to download the set!](https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz)
 
 # Prerequisites
 
