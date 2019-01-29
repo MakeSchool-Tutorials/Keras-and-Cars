@@ -27,4 +27,6 @@ This architecture allows the network to concentrate on low-level features in the
 >[solution]
 > This is the same system that allows us to recognize **patterns**, and what is an image other than patterns that converge to make a consolidated image that your brain recognize as an item? 😄
 
+With this knowledge, you should be able to **explain what a Convolutional Neural Network is, and how it can be applied in the world of Data Science!**
+
 Let's put this idea into action!

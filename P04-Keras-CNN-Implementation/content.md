@@ -120,4 +120,4 @@ Non-trainable params: 0
 _________________________________________________________________
 ```
 
-Now we'll learn how to train and validate our model!
+Congrats, you just **analyzed a Keras implementation of a Convolutional Neural Network!** Now we'll learn how to train and validate our model!

@@ -96,11 +96,13 @@ visualize_classes()
 Your output should be the following:
 ![class viz](assets/class_viz.png)
 
+Congrats! You just **implemented a method to classify images!**
+
 # Preprocessing and Normalization
 
 A special note in working with data and neural networks is that some preprocessing is involved.
 
-For image processing, the **images must have the same dimensions and should have near the same pixel density** to really make the most out of your predictions. In your own projects, this might mean that you must scale or crop your images beforehand in preprocessing. Luckily for us, the `Cifar-10` dataset comes preprocessed.
+For image processing, the **images must have the same dimensions and should have near the same pixel density** to really make the most out of your predictions. In your own projects, this might mean that you must scale or crop your images beforehand in preprocessing. Luckily for us, the `CIFAR-10` dataset comes preprocessed.
 
 **Image data normalization** is an important step which ensures that each input parameter (pixel, in this case) has a similar data distribution. This makes convergence faster while training the network. For image inputs we might choose to scale the normalized data in the range `[0,1]` or `[0, 255]`.
 
@@ -174,7 +176,7 @@ array([[[ 0.23137255,  0.16862746,  0.19607843, ...,  0.61960787,
 The output variables are one-hot encoded as a vector of integers from `0 to 1` for each class. This transforms the output into into a binary matrix in order to best model the classification problem of sorting images into 10 "buckets". We know there are 10 classes for this problem, so we can expect the binary matrix to have a width of 10.
 
 >[action]
-> Add the folowing to your notebook:
+> Add the following to your notebook:
 >
 ```python
 y_train = np_utils.to_categorical(y_train, num_classes)

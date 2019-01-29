@@ -84,4 +84,6 @@ With all of these in mind lets look at a wide overview of the entire network:
 
 ![whole network](assets/typical_cnn.webp)
 
+At this point, you should feel comfortable **describing the layers of a Keras Sequential Model!**
+
 With this in mind, lets implement this in the next chapter!

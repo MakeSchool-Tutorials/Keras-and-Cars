@@ -3,7 +3,7 @@ title: "Training and Validating Your Model"
 slug: training-and-validating-your-model
 ---
 
-We're now at the point in which we can now **fit** our model to our data. This step will tell us how well the model we've created will generalize. It's also one of the final steps before we train and test our model! This gives us access to insights for tweaking our model for better performance.
+We're now at the point in which we can **fit** our model to our data. This step will tell us how well the model we've created will generalize. It's also one of the final steps before we train and test our model! This gives us access to insights for tweaking our model for better performance.
 
 # Parameters
 
@@ -63,6 +63,6 @@ Epoch 10/10
 Accuracy: 74.87%
 ```
 
-Based on the random seed that we set earlier, you should be getting accuracies _above 70%_ or so with this model! This means that as of now, if you were to give it a picture that could be classified into one of the 10 categories, about 70% of the time it would be right!
+Based on the random seed that we set earlier, you should be getting accuracies _above 70%_ or so with this model! This means that as of now, if you were to give it a picture that could be classified into one of the 10 categories, about 70% of the time it would be right! You've successfully **Analyzed the results of training and validating your model.** Congrats on making it through the wait!
 
 Lets go on to making some predictions!
