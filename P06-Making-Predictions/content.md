@@ -3,7 +3,7 @@ title: "Making Predictions"
 slug: making-predictions
 ---
 
-Now that we've consturucted and trained a model that's gotten solid training, It's time for us to test it on some data!
+Now that we've constructed and trained a model that's gotten solid training, It's time for us to test it on some data!
 
 # Running Predictions
 
