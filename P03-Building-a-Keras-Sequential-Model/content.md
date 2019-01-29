@@ -1,6 +1,6 @@
 ---
 title: "Building a Keras Sequential Model"
-slug: building-a-keraw-sequential-model
+slug: building-a-keras-sequential-model
 ---
 
 Were going to be be building a sequential model classify our images and the architecture is as follows:
@@ -78,4 +78,10 @@ This is then fed to the actual classifier which is referred as softmax.
 
 **Softmax classifiers** give you probabilities for each class label based on what the network has learned. The function itself takes an N-dimensional array (in this case since its flattened, it will be a 1D array). _Softmax is ultimately what gives you access to how sure the network is that a certain image (in our case) belongs to a certain category._
 
-With all of these in mind lets look at a wide overview of the entire network!
+# The Whole Network
+
+With all of these in mind lets look at a wide overview of the entire network:
+
+![whole network](assets/typical_cnn.webp)
+
+With this in mind, lets implement this in the next chapter!
