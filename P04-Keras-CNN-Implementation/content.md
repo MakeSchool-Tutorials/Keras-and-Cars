@@ -54,7 +54,7 @@ A **loss function** is simple: it’s a method of evaluating how well your CNN m
 
 ##Metrics
 
-The **metrics** will output exactly what it says, the metrics for this model that you want to be measured, have a look at the documentation
+The **metrics** will output exactly what it says, the metrics for this model that you want to be measured, have a look at the [documentation](https://keras.io/metrics/)
 
 
 # Model Summary
