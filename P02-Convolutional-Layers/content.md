@@ -15,7 +15,7 @@ Below is a visual example of what this looks like.
 
 # Layered Neurons
 
-The most important building block of a CNN is the convolutional layer. Neurons in the first convolutional layer are not connected to every single pixel in the input image, but only to pixels in their receptive fields. In turn, each neuron in the second convolutional layer is connected only to neurons located within a small rectangle in the first layer.
+The most important building block of a _Convolutional Neural Network (CNN)_ is the convolutional layer. Neurons in the first convolutional layer are not connected to every single pixel in the input image, but only to pixels in their receptive fields. In turn, each neuron in the second convolutional layer is connected only to neurons located within a small rectangle in the first layer.
 
 This architecture allows the network to concentrate on low-level features in the first hidden layer, then assemble them into higher-level features in the next hidden layer, and so on. This structure is very common in real-world images, and is one of the reasons why convolutional neural networks work so well for image recognition.
 
