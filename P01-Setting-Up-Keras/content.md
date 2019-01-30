@@ -173,7 +173,7 @@ array([[[ 0.23137255,  0.16862746,  0.19607843, ...,  0.61960787,
 
 # Encoding our Output Label
 
-The output variables are one-hot encoded as a vector of integers from `0 to 1` for each class. This transforms the output into into a binary matrix in order to best model the classification problem of sorting images into 10 "buckets". We know there are 10 classes for this problem, so we can expect the binary matrix to have a width of 10.
+The output variables are one-hot-encoded as a vector of integers from `0 to 1` for each class. This transforms the output into into a binary matrix in order to best model the classification problem of sorting images into 10 "buckets". We know there are 10 classes for this problem, so we can expect the binary matrix to have a width of 10.
 
 >[action]
 > Add the following to your notebook:

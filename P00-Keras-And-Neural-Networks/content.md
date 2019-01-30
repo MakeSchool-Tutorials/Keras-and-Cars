@@ -29,7 +29,8 @@ By the end of this tutorial, you should be able to...
 1. Explain what a Convolutional Neural Network is, and how it can be applied in the world of Data Science
 1. Describe the layers of a Keras Sequential Model
 1. Analyze a Keras implementation of a Convolutional Neural Network
-1. Analyze the results of training and validating your model and test it on data
+1. Analyze the results of training and validating your model to then test it on data
+1. Test your model for accuracy
 1. Apply the concepts learned here in your own projects
 
 >[action]

@@ -33,4 +33,4 @@ y_predicts
 array([3, 8, 8, ..., 5, 4, 7])
 ```
 
-This gives us back an array of integers that represent the categories that our network has classified our test data into! This means you've successfully **analyzed the results of training and validating your model and tested it on data!** Pretty cool, huh?
+This gives us back an array of integers that represent the categories that our network has classified our test data into! This means you've successfully **tested your model on data!** Pretty cool, huh?
