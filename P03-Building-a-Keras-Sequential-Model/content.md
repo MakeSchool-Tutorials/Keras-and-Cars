@@ -82,7 +82,7 @@ This is then fed to the actual classifier which is referred as softmax.
 
 With all of these in mind lets look at a wide overview of the entire network:
 
-![whole network](assets/typical_cnn.webp)
+![whole network](assets/typical_cnn.png)
 
 At this point, you should feel comfortable **describing the layers of a Keras Sequential Model!**
 
