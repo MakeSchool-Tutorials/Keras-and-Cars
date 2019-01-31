@@ -1,5 +1,5 @@
-title: "Keras and Cars"
+title: "Keras for Image Classification"
 cover: cover.png
-solution_url: https://github.com/MakeSchool-Tutorials/Keras-and-Cars
+solution_url: https://github.com/MakeSchool-Tutorials/Keras-for-Image-Classification
 teaser_text: |
-    Classify and identify automobile images with Keras
+    Classify and identify images with Keras
